@@ -13,15 +13,39 @@ export function renderAscii(text: string, font: string = 'Standard'): string {
     return figlet.textSync(trimmed, { font });
 }
 
+function hasInk(fontName: string, charCode: number): boolean {
+    const font = (figlet as any).figFonts?.[fontName];
+    if (!font) return false;
+    const glyph = font[charCode];
+    if (!glyph) return false;
+    const hardBlank = font.options?.hardBlank;
+    return glyph.some((line: string) => {
+        let cleaned = line;
+        if (hardBlank) {
+            cleaned = line.split(hardBlank).join(' ');
+        }
+        return cleaned.trim().length > 0;
+    });
+}
+
 export const asciiSection: Section = {
     id: 'ascii',
     render(_data: GitHubData, config: Config): string {
-        const { text, font } = config.sections.ascii;
+        let { text, font } = config.sections.ascii;
 
         const customFontPath = path.resolve(process.cwd(), 'assets', 'fonts', `${font}.flf`);
         if (fs.existsSync(customFontPath)) {
             const fontData = fs.readFileSync(customFontPath, 'utf8');
             figlet.parseFont(font, fontData);
+
+            const hasUpper = hasInk(font, 65); // 'A'
+            const hasLower = hasInk(font, 97); // 'a'
+
+            if (hasUpper && !hasLower) {
+                text = text.toUpperCase();
+            } else if (hasLower && !hasUpper) {
+                text = text.toLowerCase();
+            }
         }
 
         const art = renderAscii(text, font);
