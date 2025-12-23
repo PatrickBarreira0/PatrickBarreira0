@@ -10,7 +10,11 @@ export function renderAscii(text: string, font: string = 'Standard'): string {
     if (!trimmed) {
         throw new Error('ASCII text cannot be empty');
     }
-    return figlet.textSync(trimmed, { font });
+    return figlet.textSync(trimmed, { 
+        font: font as any, 
+        width: 1000, 
+        whitespaceBreak: true 
+    });
 }
 
 function hasInk(fontName: string, charCode: number): boolean {
