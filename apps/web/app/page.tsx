@@ -5,6 +5,11 @@ import { generateAsciiArt, getFonts, generateFullReadme } from './actions';
 import { Copy, Terminal, Type, Github, BarChart3, Code2, Activity, Settings, RefreshCw, Eye, EyeOff } from 'lucide-react';
 import type { Config } from '@github-readme-stylist/core';
 
+
+//TODO Fix preview ascii text compression
+//TODO Make ascii art dynamic after generation
+//TODO Change enabling/disabling button
+
 //default initial config
 const initialConfig: Config = {
   username: '',
@@ -167,7 +172,7 @@ export default function Home() {
                                 value={config.username}
                                 onChange={(e) => setConfig((prev: Config) => ({ ...prev, username: e.target.value }))}
                                 className="w-full p-3 rounded-lg border bg-white dark:bg-black border-gray-200 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 outline-none"
-                                placeholder="e.g. PatrickBarreira0"
+                                placeholder="Enter your GitHub username"
                             />
                         </div>
                     </div>
@@ -241,7 +246,7 @@ export default function Home() {
                 {activeTab === 'languages' && (
                      <div className="space-y-4">
                         <div className="flex items-center justify-between mb-4">
-                           <label className="text-sm font-semibold">Enable Languages Section</label>
+                           <label className="text-sm font-semibold">Enable Languages Section (Python, C Java, etc.)</label>
                            <button
                                onClick={() => updateSection('languages', 'enabled', !config.sections.languages.enabled)}
                                className={`p-2 rounded-lg transition-colors ${config.sections.languages.enabled ? 'bg-green-100 text-green-700' : 'bg-gray-200 text-gray-500'}`}
@@ -251,7 +256,7 @@ export default function Home() {
                        </div>
                        {config.sections.languages.enabled && (
                            <div className="space-y-2">
-                               <label className="text-sm font-semibold">Top N Languages</label>
+                               <label className="text-sm font-semibold">Amount of Languages to Show</label>
                                <input
                                    type="number"
                                    min="1"
@@ -268,7 +273,7 @@ export default function Home() {
                 {activeTab === 'activity' && (
                      <div className="space-y-4">
                         <div className="flex items-center justify-between mb-4">
-                           <label className="text-sm font-semibold">Enable Activity Section</label>
+                           <label className="text-sm font-semibold">Enable last commits section</label>
                            <button
                                onClick={() => updateSection('activity', 'enabled', !config.sections.activity.enabled)}
                                className={`p-2 rounded-lg transition-colors ${config.sections.activity.enabled ? 'bg-green-100 text-green-700' : 'bg-gray-200 text-gray-500'}`}
@@ -278,7 +283,7 @@ export default function Home() {
                        </div>
                        {config.sections.activity.enabled && (
                            <div className="space-y-2">
-                               <label className="text-sm font-semibold">Activity Limit</label>
+                               <label className="text-sm font-semibold">Commits to Show</label>
                                <input
                                    type="number"
                                    min="1"
