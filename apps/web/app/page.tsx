@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { generateAsciiArt, getFonts, generateFullReadme } from './actions';
 import { Copy, Terminal, Type, Github, BarChart3, Code2, Activity, Settings, RefreshCw, Eye, EyeOff } from 'lucide-react';
 import type { Config } from '@github-readme-stylist/core';
+import ReactMarkdown from 'react-markdown'; // Import the renderer
 
 
 //TODO Make ascii art dynamic after generation
@@ -342,9 +343,35 @@ export default function Home() {
               
               <div className="flex-1 p-6 overflow-auto bg-[#0d1117] text-gray-300 min-h-[500px]">
                 {fullPreview ? (
-                     <pre className="font-mono text-xs sm:text-sm leading-relaxed whitespace-pre-wrap select-all">
-                        {fullPreview}
-                    </pre>
+                    // React Markdown Rendering
+                    <div className="markdown-preview">
+                        <ReactMarkdown
+                            components={{
+                                h4: ({children}) => (
+                                    <h4 className="text-xl font-semibold mt-6 mb-4 pb-2 border-b border-gray-700 text-white">
+                                        {children}
+                                    </h4>
+                                ),
+                                pre: ({children}) => (
+                                    <pre className="bg-[#161b22] p-4 rounded-md overflow-x-auto border border-gray-700 text-xs sm:text-sm leading-[1.1] font-mono text-gray-300 my-4">
+                                        {children}
+                                    </pre>
+                                ),
+                                code: ({children}) => (
+                                    <code className="font-mono text-xs sm:text-sm">
+                                        {children}
+                                    </code>
+                                ),
+                                p: ({children}) => (
+                                    <p className="mb-4 leading-relaxed">
+                                        {children}
+                                    </p>
+                                )
+                            }}
+                        >
+                            {fullPreview}
+                        </ReactMarkdown>
+                    </div>
                 ) : asciiPreview ? (
                     <pre className="font-mono text-xs sm:text-sm leading-none whitespace-pre select-all text-center flex flex-col items-center justify-center h-full">
                         {asciiPreview}
