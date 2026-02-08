@@ -21,6 +21,7 @@ type ControlsPanelProps = {
   onUsernameChange: (value: string) => void;
   onUpdateSection: UpdateSection;
   onStyleChange: (value: StyleValue) => void;
+  onStyleTextChange: (value: string) => void;
   onGenerate: () => void;
   isGenerating: boolean;
   error: string;
@@ -62,6 +63,7 @@ export function ControlsPanel({
   onUsernameChange,
   onUpdateSection,
   onStyleChange,
+  onStyleTextChange,
   onGenerate,
   isGenerating,
   error,
@@ -243,6 +245,14 @@ export function ControlsPanel({
                 <option value="compact">Compact</option>
                 <option value="classic">Classic</option>
               </select>
+            </div>
+            <div className="space-y-2">
+              <label className="text-sm font-semibold">Text</label>
+              <textarea
+                value={config.styleText ?? ''}
+                onChange={(e) => onStyleTextChange(e.target.value)}
+                className="w-full p-3 rounded-lg border bg-white dark:bg-black border-gray-200 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 outline-none"
+              />
             </div>
           </div>
         )}

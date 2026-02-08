@@ -37,6 +37,7 @@ export type ReadmeStyle = 'classic' | 'compact' | 'terminal';
 export interface Config {
     username: string;
     style?: ReadmeStyle;
+    styleText?: string;
     sections: SectionsConfig;
 }
 

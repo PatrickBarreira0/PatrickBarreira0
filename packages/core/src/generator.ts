@@ -134,9 +134,11 @@ export function renderCompactLayout(data: GitHubData, config: Config): string {
     const left = stackBlocks([languageLines, activityLines]);
     const right = stackBlocks([statsLines]);
     const body: string[] = [];
+    const styleText = (config.styleText ?? '').trim();
 
     if (asciiLines.length > 0) {
         body.push(...asciiLines);
+        if (styleText) body.push(styleText);
     }
 
     const bottom = mergeColumns(left, right);
@@ -184,9 +186,10 @@ export function renderTerminalLayout(data: GitHubData, config: Config): string {
     const bottomRow = mergeColumns(activityBox, statsBox, 2);
 
     const body: string[] = [];
+    const styleText = (config.styleText ?? '').trim();
     if (asciiLines.length > 0) {
         body.push(...asciiLines, '');
-        //body.push('Software may be potentially hazardous. Explore at your own risk.');
+        if (styleText) body.push(styleText);
     }
     if (middleBlock.length > 0) {
         if (body.length > 0) body.push('');

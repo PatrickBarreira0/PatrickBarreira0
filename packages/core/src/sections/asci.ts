@@ -119,6 +119,8 @@ export const asciiSection: Section = {
 
         const art = renderAscii(text, font);
         const output = config.sections.ascii.showCats ? addCatsToAscii(art) : art;
-        return `\`\`\`text\n${output}\n\`\`\``;
+        const styleText = config.style === 'classic' ? (config.styleText ?? '').trim() : '';
+        const suffix = styleText ? `\n${styleText}` : '';
+        return `\`\`\`text\n${output}${suffix}\n\`\`\``;
     },
 };
