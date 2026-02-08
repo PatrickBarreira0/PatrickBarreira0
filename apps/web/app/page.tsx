@@ -16,7 +16,7 @@ const initialConfig: Config = {
   sections: {
     ascii: {
       enabled: true,
-      text: 'Readme Stylist',
+      text: 'Readme',
       font: 'Standard',
     },
     stats: {
@@ -112,6 +112,10 @@ export default function Home() {
       }
     }));
   };
+
+  const CleanPreview = (fullPreview ?? '') // i simply dont know a better way to do this
+  .replace(/<!--[\s\S]*?-->/g, '')
+  .trim();
 
   return (
     <div className="min-h-screen bg-background text-foreground p-4 md:p-8 font-sans">
@@ -369,7 +373,7 @@ export default function Home() {
                                 )
                             }}
                         >
-                            {fullPreview}
+                            {CleanPreview}
                         </ReactMarkdown>
                     </div>
                 ) : asciiPreview ? (
