@@ -27,8 +27,8 @@ Software Developer
  /  )    .-'       `./ /   \   │     2     │  │   1   │              =\   /=
 (  (   ,'            `/    /|  └───────────┘  └───────┘              )   (
  \  `-'             \'\   / |  ┌ Languages ──────────────────── ┐   /     \
-  `.              ,  \ \ /  |  │ TypeScript ██████████░░  82.2% │   )     (
-   /`.          ,'-`----Y   |  │ Python     █░░░░░░░░░░░   5.5% │  /       \
+  `.              ,  \ \ /  |  │ TypeScript ██████████░░  82.3% │   )     (
+   /`.          ,'-`----Y   |  │ Python     █░░░░░░░░░░░   5.4% │  /       \
   (            ;        |   '  │ JavaScript █░░░░░░░░░░░   5.1% │  \       /
   |  ,-.    ,-'         |  /   │ CSS        ░░░░░░░░░░░░   2.5% │   \__ __/
   |  | (   |            | /    │ C#         ░░░░░░░░░░░░   2.4% │      ))
@@ -36,9 +36,9 @@ Software Developer
   `--'   `--'                                                          ((
                                                                        \)
 
-┌ Activity ────────────────────────────────── ┐  ┌ Stats ───── ┐
-│ Push PatrickBarreira0/Github-readme-stylist │  │ Commits 205 │
-│ Push PatrickBarreira0/Github-readme-stylist │  └─────────────┘
+┌ Activity ────────────────────────────────── ┐  ┌ Stats ──── ┐
+│ Push PatrickBarreira0/Github-readme-stylist │  │ Commits 90 │
+│ Push PatrickBarreira0/Github-readme-stylist │  └────────────┘
 │ Push PatrickBarreira0/Github-readme-stylist │
 │ Push PatrickBarreira0/Github-readme-stylist │
 │ Push PatrickBarreira0/Github-readme-stylist │
