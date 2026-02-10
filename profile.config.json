@@ -12,8 +12,8 @@
     "stats": {
       "enabled": true,
       "showCommits": true,
-      "showStars": true,
-      "showFollowers": true
+      "showStars": false,
+      "showFollowers": false
     },
     "languages": {
       "enabled": true,

@@ -1,11 +1,8 @@
 name: Update Profile README
 
 on:
-  push:
-    branches:
-      - main
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -37,4 +34,4 @@ jobs:
         with:
           commit_message: "docs: update profile readme stats [skip ci]"
           file_pattern: README.md
-          branch: ${{ github.head_ref }}
+          branch: main
