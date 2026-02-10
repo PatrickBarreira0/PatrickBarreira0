@@ -21,7 +21,7 @@
     },
     "activity": {
       "enabled": true,
-      "limit": 5
+      "limit": 2
     }
   }
 }
