@@ -32,6 +32,8 @@ jobs:
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "docs: update profile readme stats [skip ci]"
+          commit_message: "Update Profile README"
           file_pattern: README.md
           branch: main
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
