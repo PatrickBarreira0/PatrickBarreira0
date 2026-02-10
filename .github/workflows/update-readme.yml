@@ -27,7 +27,7 @@ jobs:
       - name: Generate README
         run: npm run dev:core
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_PAT_TOKEN }}
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
