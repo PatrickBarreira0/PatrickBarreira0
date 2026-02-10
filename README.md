@@ -36,9 +36,9 @@ Software Developer
   `--'   `--'                                                          ((
                                                                        \)
 
-┌ Activity ──────────────────────────────────── ┐  ┌ Stats ───── ┐
-│ Create PatrickBarreira0/PatrickBarreira0      │  │ Commits 245 │
-│ Push   PatrickBarreira0/Github-readme-stylist │  └─────────────┘
-└───────────────────────────────────────────────┘
+┌ Activity ───────────────────────────── ┐  ┌ Stats ───── ┐
+│ Push PatrickBarreira0/PatrickBarreira0 │  │ Commits 248 │
+│ Push PatrickBarreira0/PatrickBarreira0 │  └─────────────┘
+└────────────────────────────────────────┘
 ```
 <!-- END_SECTION:style -->
