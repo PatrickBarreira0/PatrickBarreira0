@@ -39,8 +39,8 @@ https://github-readme-stylist.vercel.app/
                                                                        \)
 
 ┌ Activity ────────────────────────────────── ┐  ┌ Stats ───── ┐
-│ Create PatrickBarreira0/JitterBit-Challenge │  │ Commits 395 │
-│ Push   PatrickBarreira0/PatrickBarreira0    │  └─────────────┘
+│ Watch  zachMahan64/pokemon-tbje             │  │ Commits 395 │
+│ Create PatrickBarreira0/JitterBit-Challenge │  └─────────────┘
 └─────────────────────────────────────────────┘
 ```
 <!-- END_SECTION:style -->
