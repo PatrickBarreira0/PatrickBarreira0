@@ -39,7 +39,7 @@ https://github-readme-stylist.vercel.app/
                                                                              \)
 
 ┌ Activity ───────────────────────── ┐  ┌ Stats ───── ┐
-│ Push PatrickBarreira0/Projeto-DB-2 │  │ Commits 440 │
+│ Push PatrickBarreira0/projetodb    │  │ Commits 442 │
 │ Push PatrickBarreira0/Projeto-DB-2 │  └─────────────┘
 └────────────────────────────────────┘
 ```
