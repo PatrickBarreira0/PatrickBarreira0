@@ -1,4 +1,11 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/patrickbarreira0/patrickbarreira0/main/banner1.png" width="100%" alt="banner"/>
+  <br/>
+  <br/>
+  <em>"Fear the old blood."</em>
+</div>
 
+<br/>
 
 <!-- START_SECTION:style -->
 ```text
