@@ -1,8 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/patrickbarreira0/patrickbarreira0/main/banner1.png" width="100%" alt="banner"/>
-  <br/>
-  <br/>
-  <em>"Fear the old blood."</em>
+  <img src="https://raw.githubusercontent.com/PatrickBarreira0/PatrickBarreira0/main/banner1.jpg" width="100%" alt="banner"/>
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=IM+Fell+English+SC&size=26&color=C9A84C&center=true&vCenter=true&width=600&lines=Fear+the+old+blood." alt="Fear the old blood"/>
 </div>
 
 <br/>
