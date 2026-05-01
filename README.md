@@ -38,8 +38,9 @@ https://github-readme-stylist.vercel.app/
   `--'   `--'                                                          ((
                                                                        \)
 
-┌ Stats ───── ┐
-│ Commits 461 │
-└─────────────┘
+┌ Activity ───────────────────────────── ┐  ┌ Stats ───── ┐
+│ Push PatrickBarreira0/PatrickBarreira0 │  │ Commits 461 │
+│ Push PatrickBarreira0/PatrickBarreira0 │  └─────────────┘
+└────────────────────────────────────────┘
 ```
 <!-- END_SECTION:style -->
