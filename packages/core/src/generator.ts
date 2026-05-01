@@ -247,8 +247,21 @@ export async function generateReadmeContent(config: Config, token?: string): Pro
     const data = await fetchGitHubData(config.username, token);
     const readmeContent = renderReadmeFromData(data, config);
     
-    // Aqui é onde injetamos o seu banner absurdo no topo do arquivo
-    const banner = `<p align="center">\n  <img src="banner1.jpg" width="100%">\n</p>\n\n`;
+    // Injetando o banner e o SVG animado no topo, seguindo o estilo exato!
+    const topCustomElements = `
+<!-- BANNER -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/${config.username}/${config.username}/main/banner1.jpg" width="100%" alt="banner"/>
+</div>
+
+<!-- TITLE -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=IM+Fell+English+SC&size=26&pause=2000&color=C9A84C&center=true&vCenter=true&width=600&lines=Backend+Developer+in+Training;Fear+the+old+blood.;Seek+Paleblood+to+transcend+the+Hunt." alt="Typing SVG"/>
+</div>
+
+<br/>
+
+`;
     
-    return banner + readmeContent;
+    return topCustomElements + readmeContent;
 }
