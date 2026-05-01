@@ -245,6 +245,10 @@ export function renderReadmeFromData(data: GitHubData, config: Config): string {
 
 export async function generateReadmeContent(config: Config, token?: string): Promise<string> {
     const data = await fetchGitHubData(config.username, token);
-    return renderReadmeFromData(data, config);
+    const readmeContent = renderReadmeFromData(data, config);
+    
+    // Aqui é onde injetamos o seu banner absurdo no topo do arquivo
+    const banner = `<p align="center">\n  <img src="banner1.jpg" width="100%">\n</p>\n\n`;
+    
+    return banner + readmeContent;
 }
-
