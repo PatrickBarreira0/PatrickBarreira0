@@ -36,10 +36,10 @@ https://github-readme-stylist.vercel.app/
   ,-.       _,---._ __  / \                                          )     (
  /  )    .-'       `./ /   \                                         =\   /=
 (  (   ,'            `/    /|  ┌ Languages ──────────────────── ┐    )   (
- \  `-'             \'\   / |  │ JavaScript ███████░░░░░  57.1% │   /     \
-  `.              ,  \ \ /  |  │ TypeScript ███░░░░░░░░░  28.4% │   )     (
-   /`.          ,'-`----Y   |  │ CSS        █░░░░░░░░░░░   6.1% │  /       \
-  (            ;        |   '  │ Rust       ░░░░░░░░░░░░   3.4% │  \       /
+ \  `-'             \'\   / |  │ JavaScript ███████░░░░░  55.9% │   /     \
+  `.              ,  \ \ /  |  │ TypeScript ███░░░░░░░░░  29.0% │   )     (
+   /`.          ,'-`----Y   |  │ CSS        █░░░░░░░░░░░   6.9% │  /       \
+  (            ;        |   '  │ Rust       ░░░░░░░░░░░░   3.3% │  \       /
   |  ,-.    ,-'         |  /   │ HTML       ░░░░░░░░░░░░   2.2% │   \__ __/
   |  | (   |            | /    └────────────────────────────────┘      ))
   )  |  \  `.___________|/                                             //
@@ -47,7 +47,7 @@ https://github-readme-stylist.vercel.app/
                                                                        \)
 
 ┌ Activity ───────────────────────── ┐  ┌ Stats ───── ┐
-│ PullRequest gopzera/surebetmanager │  │ Commits 529 │
+│ PullRequest gopzera/surebetmanager │  │ Commits 530 │
 │ PullRequest gopzera/surebetmanager │  └─────────────┘
 └────────────────────────────────────┘
 ```
