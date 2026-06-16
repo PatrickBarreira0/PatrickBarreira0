@@ -46,9 +46,8 @@ https://github-readme-stylist.vercel.app/
   `--'   `--'                                                          ((
                                                                        \)
 
-┌ Activity ───────────────────────── ┐  ┌ Stats ───── ┐
-│ PullRequest gopzera/surebetmanager │  │ Commits 530 │
-│ PullRequest gopzera/surebetmanager │  └─────────────┘
-└────────────────────────────────────┘
+┌ Stats ───── ┐
+│ Commits 530 │
+└─────────────┘
 ```
 <!-- END_SECTION:style -->
