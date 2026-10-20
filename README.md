@@ -47,7 +47,7 @@ https://github-readme-stylist.vercel.app/
                                                                              \)
 
 ┌ Activity ────────────────────── ┐  ┌ Stats ───── ┐
-│ Push   PatrickBarreira0/AI-LAB2 │  │ Commits 529 │
+│ Push   PatrickBarreira0/AI-LAB2 │  │ Commits 527 │
 │ Create PatrickBarreira0/AI-LAB2 │  └─────────────┘
 └─────────────────────────────────┘
 ```
