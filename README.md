@@ -46,9 +46,9 @@ https://github-readme-stylist.vercel.app/
   `--'   `--'                                                                ((
                                                                              \)
 
-┌ Activity ────────────────────── ┐  ┌ Stats ───── ┐
-│ Push   PatrickBarreira0/AI-LAB2 │  │ Commits 532 │
-│ Create PatrickBarreira0/AI-LAB2 │  └─────────────┘
-└─────────────────────────────────┘
+┌ Activity ──────────────────────────────────────── ┐  ┌ Stats ───── ┐
+│ Create PatrickBarreira0/lab-bagging-boosting-iris │  │ Commits 532 │
+│ Push   PatrickBarreira0/AI-LAB2                   │  └─────────────┘
+└───────────────────────────────────────────────────┘
 ```
 <!-- END_SECTION:style -->
