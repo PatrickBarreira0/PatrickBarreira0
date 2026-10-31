@@ -36,8 +36,8 @@ https://github-readme-stylist.vercel.app/
   ,-.       _,---._ __  / \                                                )     (
  /  )    .-'       `./ /   \                                               =\   /=
 (  (   ,'            `/    /|  ┌ Languages ────────────────────────── ┐    )   (
- \  `-'             \'\   / |  │ Jupyter Notebook ███████░░░░░  56.8% │   /     \
-  `.              ,  \ \ /  |  │ JavaScript       ███░░░░░░░░░  24.0% │   )     (
+ \  `-'             \'\   / |  │ Jupyter Notebook ███████░░░░░  56.7% │   /     \
+  `.              ,  \ \ /  |  │ JavaScript       ███░░░░░░░░░  23.9% │   )     (
    /`.          ,'-`----Y   |  │ TypeScript       █░░░░░░░░░░░  12.4% │  /       \
   (            ;        |   '  │ CSS              ░░░░░░░░░░░░   3.0% │  \       /
   |  ,-.    ,-'         |  /   │ Rust             ░░░░░░░░░░░░   1.4% │   \__ __/
@@ -47,7 +47,7 @@ https://github-readme-stylist.vercel.app/
                                                                              \)
 
 ┌ Activity ──────────────────────────────────────── ┐  ┌ Stats ───── ┐
-│ Push   PatrickBarreira0/lab-bagging-boosting-iris │  │ Commits 532 │
+│ Push   PatrickBarreira0/lab-bagging-boosting-iris │  │ Commits 533 │
 │ Create PatrickBarreira0/lab-bagging-boosting-iris │  └─────────────┘
 └───────────────────────────────────────────────────┘
 ```
