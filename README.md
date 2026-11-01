@@ -47,8 +47,8 @@ https://github-readme-stylist.vercel.app/
                                                                              \)
 
 ┌ Activity ──────────────────────────────────────── ┐  ┌ Stats ───── ┐
-│ Push   PatrickBarreira0/lab-bagging-boosting-iris │  │ Commits 533 │
-│ Create PatrickBarreira0/lab-bagging-boosting-iris │  └─────────────┘
+│ Create PatrickBarreira0/leilao-soap-grupo-2       │  │ Commits 533 │
+│ Push   PatrickBarreira0/lab-bagging-boosting-iris │  └─────────────┘
 └───────────────────────────────────────────────────┘
 ```
 <!-- END_SECTION:style -->
