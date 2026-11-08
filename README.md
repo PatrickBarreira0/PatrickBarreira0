@@ -46,9 +46,9 @@ https://github-readme-stylist.vercel.app/
   `--'   `--'                                                                ((
                                                                              \)
 
-┌ Activity ──────────────────────────────────────── ┐  ┌ Stats ───── ┐
-│ Create PatrickBarreira0/leilao-soap-grupo-2       │  │ Commits 527 │
-│ Push   PatrickBarreira0/lab-bagging-boosting-iris │  └─────────────┘
-└───────────────────────────────────────────────────┘
+┌ Activity ──────────────────────────────── ┐  ┌ Stats ───── ┐
+│ Push PatrickBarreira0/leilao-soap-grupo-2 │  │ Commits 527 │
+│ Push PatrickBarreira0/leilao-soap-grupo-2 │  └─────────────┘
+└───────────────────────────────────────────┘
 ```
 <!-- END_SECTION:style -->
