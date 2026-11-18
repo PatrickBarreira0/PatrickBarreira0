@@ -36,9 +36,9 @@ https://github-readme-stylist.vercel.app/
   ,-.       _,---._ __  / \                                                )     (
  /  )    .-'       `./ /   \                                               =\   /=
 (  (   ,'            `/    /|  ┌ Languages ────────────────────────── ┐    )   (
- \  `-'             \'\   / |  │ Jupyter Notebook ███████░░░░░  56.5% │   /     \
-  `.              ,  \ \ /  |  │ JavaScript       ███░░░░░░░░░  23.8% │   )     (
-   /`.          ,'-`----Y   |  │ TypeScript       █░░░░░░░░░░░  12.3% │  /       \
+ \  `-'             \'\   / |  │ Jupyter Notebook ███████░░░░░  57.0% │   /     \
+  `.              ,  \ \ /  |  │ JavaScript       ███░░░░░░░░░  23.5% │   )     (
+   /`.          ,'-`----Y   |  │ TypeScript       █░░░░░░░░░░░  12.2% │  /       \
   (            ;        |   '  │ CSS              ░░░░░░░░░░░░   2.9% │  \       /
   |  ,-.    ,-'         |  /   │ Python           ░░░░░░░░░░░░   1.6% │   \__ __/
   |  | (   |            | /    └──────────────────────────────────────┘      ))
@@ -46,9 +46,9 @@ https://github-readme-stylist.vercel.app/
   `--'   `--'                                                                ((
                                                                              \)
 
-┌ Activity ──────────────────────────────── ┐  ┌ Stats ───── ┐
-│ Push PatrickBarreira0/leilao-soap-grupo-2 │  │ Commits 486 │
-│ Push PatrickBarreira0/leilao-soap-grupo-2 │  └─────────────┘
-└───────────────────────────────────────────┘
+┌ Activity ───────────────────────────────────────────────── ┐  ┌ Stats ───── ┐
+│ Create PatrickBarreira0/pucsp-ai-llm-calculadora-projeto09 │  │ Commits 489 │
+│ Push   PatrickBarreira0/leilao-soap-grupo-2                │  └─────────────┘
+└────────────────────────────────────────────────────────────┘
 ```
 <!-- END_SECTION:style -->
